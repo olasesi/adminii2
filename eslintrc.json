@@ -1,0 +1,19 @@
+{
+  
+    "plugins": ["tailwindcss", "prettier"],
+    "extends": [
+     
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "plugin:tailwindcss/recommended"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ]
+    }
+  }
+  
